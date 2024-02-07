@@ -1,0 +1,194 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    /* border: solid; */
+    color: aqua;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+body{
+    
+    background-color: rgb(25, 25, 31);
+}
+
+
+.signin
+{
+   
+    /* border: solid white; */
+    display: flex;
+    /* flex-wrap: wrap; */
+   
+    align-items: center;
+
+    justify-content: center;
+    
+
+   
+}
+
+
+ form
+{
+
+    /* border: solid white; */
+    width: 100vw;
+    height: 80vh;
+    margin-top: 15vh;
+    align-items: center;
+
+
+
+   
+ 
+} 
+
+
+
+
+ .username
+{
+    /* border: solid wheat; */
+    width: 100vw;
+    display: flex;
+   justify-content: center;
+    margin-top: 40px;
+    
+} 
+
+
+
+
+.password
+{
+    /* border: solid wheat; */
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+
+
+input
+{
+
+  
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: burlywood;
+   
+    background-color:transparent;
+    width: 400px;
+    color: wheat;
+    font-size: larger;
+    /* font-weight: bolder; */
+
+  
+
+ 
+    
+  
+}
+
+
+input::placeholder
+{
+    
+    /* border: solid wheat; */
+   text-align: center;
+    color: aqua;
+    /* font-weight: bolder; */
+    font-family: cursive;
+    z-index: 0.8;
+
+}
+
+
+input:focus
+{
+    outline: none;
+
+}
+
+
+/* .noutline:focus
+{
+    outline: none;
+} */
+
+.signinbutton
+{
+    display: flex;
+    /* border: solid; */
+    margin-top: 40px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.sbt
+{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(127, 127, 156);
+}
+
+.createanaccount
+{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.createanaccount a
+{
+    text-decoration: none;
+    color: wheat;
+    font-weight: bolder;
+    font-size: x-large;
+
+    
+}
+
+.sbt
+{
+ cursor: pointer;
+}
+
+
+
+
+
+/* @media only screen and (max-width:628px)
+{
+    .header
+    {
+   
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        font-size: xx-small;
+    }
+
+
+
+
+
+} */

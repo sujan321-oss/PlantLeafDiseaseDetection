@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/css/leaf.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       .message
+       {
+           color: red;
+
+           display: flex;
+           justify-content: center;
+           padding: 10px;
+           font-size: larger;
+
+           margin-left: 150px;
+           margin-top: 20px;
+
+       }
+
+      
+           
+           
+
+           
+
+
+      </style>
+
+
+
+
+
+</head>
+<body>
+
+    <div class="title"> 
+        <h1>Detect disease here</h1>
+        </div>
+
+
+    
+
+
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+       
+
+        <div class="ddetection">
+
+            <div class="imag1">
+
+                <img src="/static/image/tomato.webp" alt="">
+
+            </div>
+
+
+
+            <div class="prediction-area">
+                
+                <!-- <div class="title"> 
+                    <h1>Detect disease here</h1>
+                    </div> -->
+        
+                    
+        
+                
+                    <div class="select">
+        
+                      
+                        <div class="leaf-type"><h4>Choose the plant</h4></div>
+        
+        
+                        <select  id="" name="plantname">
+                            <option value="cotton" name="plantname">Cotton</option>
+                            <option value="potato" name="plantname">Potato</option>
+                            <option value="tomato" name="plantname">Tomato</option>
+            
+                        </select>
+        
+                        
+            
+                    </div>
+        
+            
+                    
+                    <div class="image-upload" >
+                        <label for="image-upload"><img class="leafimage" src="/static/image/imageupload.webp" alt=""></label>
+                        
+                        <input type="file" id="image-upload" name="plantimage">
+            
+                    </div>
+
+
+        
+                    <div class="button">
+                        <button type="submit">Check disease</button>
+                    
+                    </div>
+
+                    <div class="message">
+                        <!-- hello -->
+                 
+                        {{message}}
+
+                    </div>
+
+            </div>
+
+
+
+
+
+            <div class="image2">
+
+                <img src="/static/image/potato.webp" alt="">
+
+
+
+            </div>
+
+            
+
+
+
+
+           
+    
+    
+    
+    
+    
+        </div>
+
+
+
+        
+    </form>
+
+
+    
+  
+
+
+
+
+    
+</body>
+</html>

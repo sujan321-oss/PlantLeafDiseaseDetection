@@ -1,0 +1,303 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    /* background-color: #F5F5F5; */
+    overflow: hidden;
+    background-color: #01040a;
+}
+
+.nav
+{
+    /* border: solid; */
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #050e17;
+    /* filter: brightness(1);
+    filter: saturate(0.5);
+    filter: contrast(0.5); */
+
+
+}
+
+
+
+/* it include logo and the home cotact and .. divs */
+.nav .ul 
+{
+
+    margin-top: 4px;
+    /* border: solid; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+
+
+}
+
+
+/* logo contains the predictor name */
+.logo
+{
+    margin-left: 8px;
+    /* border: solid; */
+    padding: 2px;
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40), blink-caret 0.75s step-end infinite;
+  font-size: 24px;
+  /* border: solid; */
+
+
+}
+
+
+
+
+/* .text-animation {
+    animation: typing 3s steps(40), blink-caret 0.75s step-end infinite;
+    font-size: 24px;
+  } */
+
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 20%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
+  
+  
+  
+
+
+
+
+
+.logo #pre
+{
+    /* border: solid; */
+    color: rgb(116, 80, 55);
+    font-size: larger;
+
+    
+}
+
+.logo #dictor
+{
+    /* border: solid; */
+    color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* which contains the list of home contact and .. */
+.navs
+{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.navs li
+{
+    list-style: none;
+    margin-top: 5px;
+
+}
+
+.navs li a
+{
+    text-decoration: none;
+    margin: 60px;
+    color: #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+    /* margin-top: 10px; */
+    font-family: Helvetica;
+    /* border: solid; */
+
+}
+
+.navs li a:hover
+{
+    background-color: rgb(37, 97, 37);
+}
+
+
+
+
+/* middle section */
+.middle
+{
+    /* border: solid; */
+    display: inline-block;
+    height: 100vh; 
+     width: 100vw; 
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* flex-basis: 20px; */
+
+}
+
+
+
+
+
+
+/* its a content part */
+.content
+{
+    /* border: solid; */
+    /* display: flex; */
+    display: inline-block;
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+    justify-content: center;
+
+
+    /* height: 200px; */
+    margin-left: 80px;
+    color: white;
+    height: 80vh;
+
+    
+
+
+}
+
+.login
+{
+    /* border: solid; */
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(13, 195, 195);
+    
+}
+.login a
+{
+    color: white;
+    text-decoration: none;
+
+    
+
+}
+
+.login:hover
+{
+    background-color: rgb(37, 97, 37) ;
+}
+
+
+
+
+
+
+/* its a header of the text */
+.sometext
+{
+    /* border: solid; */
+    word-spacing: 0.5em;
+    font-size: larger;
+    font-family:Helvetica;
+    font-weight: bolder;
+
+
+}
+
+.text
+{
+    /* border: solid; */
+    word-spacing: 0.2em;
+    font-family: Times;
+    font-size: large;
+    margin-top: 10px;
+    color: rgb(203, 210, 216);
+
+}
+
+
+
+
+
+
+
+/* image */
+.image
+{
+    /* color: white; */
+    /* border: solid; */
+    margin-top: -5px;
+    border: solid;
+    /* height: 200px; */
+    /* width: 200px; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 80vh;
+
+
+}
+
+
+
+/* image */
+.images
+{
+
+    height: 400px;
+    filter: brightness(0.6);
+    /* border-radius: 00px; */
+
+    
+}
+    
+
+
+
+
+
+
