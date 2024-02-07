@@ -25,5 +25,5 @@ User-Friendly Web Interface: Accessible via a user-friendly web interface create
 Our mission is to empower farmers, protect their crops, and enhance agricultural productivity through advanced technology. Feel free to explore, contribute, and join us in making a positive impact on agriculture with "Plant Leaf Disease Detection." Your feedback is highly valued! 🌱🌿
 
 
-![alt text]([http://url/to/img.png](https://github.com/sujan321-oss/PlantLeafDiseaseDetection/blob/main/main.jpeg)https://github.com/sujan321-oss/PlantLeafDiseaseDetection/blob/main/main.jpeg)
+![alt text](http://url/to/img.png](https://github.com/sujan321-oss/PlantLeafDiseaseDetection/blob/main/main.jpeg)https://github.com/sujan321-oss/PlantLeafDiseaseDetection/blob/main/main.jpeg)
 
